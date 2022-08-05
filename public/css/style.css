@@ -61,3 +61,22 @@ body{
   font-family: inherit;
   box-shadow: 2px 3px 5px gray;
   transition: 0.3s ease-out;
+}
+
+@media(max-width:768px){
+  .bottom-container{
+    width: 90%;
+    margin: auto;
+  }
+
+  #form, .success{
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media(max-width:480px){
+  #form input{
+    width: 50%;
+  }
+}
