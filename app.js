@@ -12,7 +12,6 @@ const PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
-// needed to pare html data to POST request
 app.use(express.urlencoded({
     extended: true
 }))
