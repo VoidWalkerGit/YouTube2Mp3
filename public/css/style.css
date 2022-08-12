@@ -37,6 +37,7 @@ body{
 
 #form h1{
   font-style: italic;
+  text-align: center;
   text-shadow: 1px 1px darkgray;
 }
 
