@@ -90,6 +90,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 25px;
   gap: 10px;
   color: black;
 }
